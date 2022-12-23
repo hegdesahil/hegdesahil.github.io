@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sahil hegde</title>
+    <link>https://hegdesahil.github.io/</link>
+    <description>Recent content on sahil hegde</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright><atom:link href="https://hegdesahil.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>about me</title>
+      <link>https://hegdesahil.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hegdesahil.github.io/about/</guid>
+      <description>I&amp;rsquo;m a second year Ph.D. student at UCLA studying theoretical astrophysics, advised by Professor Steve Furlanetto. I am generally interested in building theory models to describe the formation of stars and galaxies across cosmic time. I am currently using semi-analytic models to study the formation of the first stars in the universe &amp;mdash; see my research page for more details.
+Before coming to UCLA, I grew up in the San Francisco Bay Area and got my undergraduate degree in physics and math at Columbia University.</description>
+    </item>
+    
+    <item>
+      <title>outreach</title>
+      <link>https://hegdesahil.github.io/outreach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hegdesahil.github.io/outreach/</guid>
+      <description>I also do outreach, this page is still under construction</description>
+    </item>
+    
+    <item>
+      <title>research</title>
+      <link>https://hegdesahil.github.io/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hegdesahil.github.io/research/</guid>
+      <description>first stars Born in the pristine hydrogen gas of the early universe, the first generation of stars (also known as Population III, or Pop III, stars) are believed to be very different from the stars we see today. In order to condense to high densities and form stars, clumps of gas need to radiate some of their thermal energy (such that gravitational collapse can beat out the pressure support). The stars that we conventionally think about are able to do this via atomic cooling, because molecular clouds in the local universe are either hot enough or have been enriched (with heavier elements, or metals) by earlier generations of stars.</description>
+    </item>
+    
+  </channel>
+</rss>
