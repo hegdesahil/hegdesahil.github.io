@@ -111,8 +111,14 @@
 		  -o-background-size: contain;
 		  background-size: contain;
 		}
-		@media screen and (max-width: $medium) {
-    	body { background-size: cover; }
+		@media screen and (max-width: 600px) {
+    	body { 
+    		background-image: url('images/camping_nobg_hires_better.png');
+    		background-repeat: no-repeat;
+    		-webkit-background-size: cover;
+		  	-moz-background-size: cover;
+		  	-o-background-size: cover;
+    		background-size: cover; }
     }
 </style>
 
