@@ -144,37 +144,37 @@
 		<h1 id="myElement"></h1>
 		
 		<h2 id="subheading">
-			
 		</h2>
-		
 		<script src="https://unpkg.com/typeit/dist/index.umd.js"></script>
 		<script>
 			var instance = new TypeIt("#myElement", {
-										speed: 100,
-										startDelay: 100,
+										speed: 75,
+										startDelay: 75,
 										afterComplete: instance => {
 											new TypeIt("#subheading", {
 												strings: ["i'm an astronomy phd student at ucla."],
+												speed: 50,
 											}).go();
 											instance.destroy(); 
 										},
 										})
 										.type("Hi, I'm Sahil" , { delay: 100 })
-										.move(null, { to: "START", instant: true, delay: 300 })
+										.type("<strong class='fancy'>.</strong>")
+										.move(null, { to: "START", instant: false, delay: 150 })
 										.move(1, {delay: 0})
 										.delete(1)
 										.type("h")
-										.pause(250)
+										.pause(150)
 										.move(4)
 										.delete(1)
 										.type("i")
-										.pause(250)
+										.pause(150)
 										.move(4)
 										.delete(1)
 										.type("s")
-										.pause(250)
-										.move(4)
-										.type("<strong class='fancy'>.</strong>")
+										.pause(150)
+										.move(5)
+										.pause(350)
 									.go();
 		  </script>
 		
