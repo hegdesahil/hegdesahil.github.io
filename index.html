@@ -43,7 +43,7 @@
   
   
     
-    <link type="text/css" rel="stylesheet" href="/css/about.min.9ec4d5fda1db4aa9f9114b4a104f30e7b06c9bbd38144997f0324b92818b3ab7.css" integrity="sha256-nsTV/aHbSqn5EUtKEE8w57Bsm704FEmX8DJLkoGLOrc="/>
+    <link type="text/css" rel="stylesheet" href="/css/about.min.35e510538fff47f2db5c368eda872a64d42062504930e33166c4a3cd2c0fa278.css" integrity="sha256-NeUQU4//R/LbXDaO2ocqZNQgYlBJMOMxZsSjzSwPong="/>
   
     
     <link type="text/css" rel="stylesheet" href="/css/custom.min.5bddfdaac34577bbfee0bcf7e9cc95d934a7cec990c53696c79d41323d0e6a48.css" integrity="sha256-W939qsNFd7v&#43;4Lz36cyV2TSnzsmQxTaWx51BMj0Oakg="/>
@@ -148,19 +148,19 @@
 		<script src="https://unpkg.com/typeit/dist/index.umd.js"></script>
 		<script>
 			var instance = new TypeIt("#myElement", {
-										speed: 75,
+										speed: 100,
 										startDelay: 75,
 										afterComplete: instance => {
 											new TypeIt("#subheading", {
 												strings: ["i'm an astronomy phd student at ucla."],
-												speed: 50,
+												speed: 75,
 											}).go();
 											instance.destroy(); 
 										},
 										})
-										.type("Hi, I'm Sahil" , { delay: 100 })
+										.type("Hi, I'm Sahil" , { delay: 50 })
 										.type("<strong class='fancy'>.</strong>")
-										.move(null, { to: "START", instant: false, delay: 150 })
+										.move(null, { to: "START", instant: false, delay: 120 })
 										.move(1, {delay: 0})
 										.delete(1)
 										.type("h")
